@@ -136,7 +136,6 @@ img {
 
     .container {
         width: 760px;
-        /* margin: 0 auto; */
         padding: 0 20px;
     }
 
@@ -146,19 +145,22 @@ img {
 
 @media all and (max-width:480px) {
 
-    
+
     .container {
         display: flex;
         flex-direction: column;
-        width: 500px;
-        margin: 0 auto;
-        padding: 0 20px;
-        
+        width: 100%;
     }
 
     .row {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+    .col {
+        width: 100%;
+
     }
 
 
