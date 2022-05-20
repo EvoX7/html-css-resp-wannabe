@@ -145,21 +145,29 @@ img {
 
 @media all and (max-width:480px) {
 
+    .why-us {
+        background: black;
+    }
 
     .container {
+
         display: flex;
         flex-direction: column;
         width: 100%;
+
     }
+
 
     .row {
         display: flex;
         flex-direction: column;
 
+
     }
 
     .lessons .col {
         width: 100%;
+
 
     }
 
@@ -168,16 +176,15 @@ img {
 
     }
 
-    .why-us .col-left {
-        width: 100%;
-    }
-
+    .why-us .col-left, 
     .why-us .col-right {
         width: 100%;
-    }
 
+    }
+   
     .card {
         padding-bottom: 50px;
+
     }
 
     img {
