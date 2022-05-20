@@ -155,13 +155,39 @@ img {
     .row {
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .col {
+    .lessons .col {
         width: 100%;
 
     }
+
+    .steps .col {
+        width: 100%;
+
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .card {
+        padding-bottom: 50px;
+    }
+
+    img {
+        padding-bottom: 30px;
+    }
+
+
+
+
+
 
 
 }
