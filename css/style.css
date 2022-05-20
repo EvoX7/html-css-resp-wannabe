@@ -146,7 +146,11 @@ img {
 @media all and (max-width:480px) {
 
     .why-us {
-        background: black;
+        background-color: black;
+        padding-top: 50px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+
     }
 
     .container {
@@ -154,6 +158,7 @@ img {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: -5px;
 
     }
 
@@ -176,12 +181,12 @@ img {
 
     }
 
-    .why-us .col-left, 
+    .why-us .col-left,
     .why-us .col-right {
         width: 100%;
 
     }
-   
+
     .card {
         padding-bottom: 50px;
 
